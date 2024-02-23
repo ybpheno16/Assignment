@@ -1,0 +1,29 @@
+.heading{
+    font-size: xx-large;
+    position: relative;
+    margin-left: 45%;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr); 
+    gap: 10px; 
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+
+}
